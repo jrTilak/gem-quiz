@@ -1,0 +1,22 @@
+[
+    {
+        "correctOption": 1,
+        "options": [
+            "Hyper Text Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language\n",
+            "Hyperlinks Text Mark Language"
+        ],
+        "question": "What does HTML stand for?"
+    },
+    {
+        "correctOption": 3,
+        "options": [
+            "color",
+            "bgcolor",
+            "background-color\n",
+            "bg-color\n"
+        ],
+        "question": " Which property is used to change the background color in CSS?"
+    }
+]
