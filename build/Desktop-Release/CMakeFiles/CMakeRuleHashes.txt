@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+f5bb26544b48512e2950fa38c925398b CMakeFiles/gem-quiz_autogen
+f5bb26544b48512e2950fa38c925398b CMakeFiles/gem-quiz_autogen_timestamp_deps
+9c3a4c845993dbacf3747ca37fb32948 gem-quiz_autogen/timestamp
