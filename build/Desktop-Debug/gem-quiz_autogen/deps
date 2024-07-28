@@ -8,6 +8,8 @@ gem-quiz_autogen/timestamp: \
 	/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
+	/home/jrtilak/gem-quiz/choosetopicforquiz.cpp \
+	/home/jrtilak/gem-quiz/choosetopicforquiz.h \
 	/home/jrtilak/gem-quiz/helpdialog.cpp \
 	/home/jrtilak/gem-quiz/helpdialog.h \
 	/home/jrtilak/gem-quiz/main.cpp \
@@ -17,6 +19,8 @@ gem-quiz_autogen/timestamp: \
 	/home/jrtilak/gem-quiz/quizitem.h \
 	/home/jrtilak/gem-quiz/showallquizes.cpp \
 	/home/jrtilak/gem-quiz/showallquizes.h \
+	/home/jrtilak/gem-quiz/takequizmodal.cpp \
+	/home/jrtilak/gem-quiz/takequizmodal.h \
 	/home/jrtilak/gem-quiz/utils.cpp \
 	/home/jrtilak/gem-quiz/utils.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -441,7 +445,9 @@ gem-quiz_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
 	/home/jrtilak/gem-quiz/addquizmodal.ui \
 	/home/jrtilak/gem-quiz/addupdatequizesmodal.ui \
+	/home/jrtilak/gem-quiz/choosetopicforquiz.ui \
 	/home/jrtilak/gem-quiz/helpdialog.ui \
 	/home/jrtilak/gem-quiz/mainwindow.ui \
 	/home/jrtilak/gem-quiz/showallquizes.ui \
+	/home/jrtilak/gem-quiz/takequizmodal.ui \
 	/usr/bin/cmake

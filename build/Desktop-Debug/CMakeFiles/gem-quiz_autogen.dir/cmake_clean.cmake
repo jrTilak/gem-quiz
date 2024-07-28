@@ -2,9 +2,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/gem-quiz_autogen"
   "gem-quiz_autogen/include/ui_addquizmodal.h"
   "gem-quiz_autogen/include/ui_addupdatequizesmodal.h"
+  "gem-quiz_autogen/include/ui_choosetopicforquiz.h"
   "gem-quiz_autogen/include/ui_helpdialog.h"
   "gem-quiz_autogen/include/ui_mainwindow.h"
   "gem-quiz_autogen/include/ui_showallquizes.h"
+  "gem-quiz_autogen/include/ui_takequizmodal.h"
   "gem-quiz_autogen/mocs_compilation.cpp"
   "gem-quiz_autogen/timestamp"
 )

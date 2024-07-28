@@ -91,6 +91,12 @@
 			null
 		],
 		[
+			"/home/jrtilak/gem-quiz/choosetopicforquiz.h",
+			"MU",
+			"EWIEGA46WW/moc_choosetopicforquiz.cpp",
+			null
+		],
+		[
 			"/home/jrtilak/gem-quiz/helpdialog.h",
 			"MU",
 			"EWIEGA46WW/moc_helpdialog.cpp",
@@ -112,6 +118,12 @@
 			"/home/jrtilak/gem-quiz/showallquizes.h",
 			"MU",
 			"EWIEGA46WW/moc_showallquizes.cpp",
+			null
+		],
+		[
+			"/home/jrtilak/gem-quiz/takequizmodal.h",
+			"MU",
+			"EWIEGA46WW/moc_takequizmodal.cpp",
 			null
 		],
 		[
@@ -174,11 +186,13 @@
 	[
 		[ "/home/jrtilak/gem-quiz/addquizmodal.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/addupdatequizesmodal.cpp", "MU", null ],
+		[ "/home/jrtilak/gem-quiz/choosetopicforquiz.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/helpdialog.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/main.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/mainwindow.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/quizitem.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/showallquizes.cpp", "MU", null ],
+		[ "/home/jrtilak/gem-quiz/takequizmodal.cpp", "MU", null ],
 		[ "/home/jrtilak/gem-quiz/utils.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

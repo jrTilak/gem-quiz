@@ -248,6 +248,30 @@ addupdatequizesmodal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.s
 .PHONY : addupdatequizesmodal.cpp.s
 
+choosetopicforquiz.o: choosetopicforquiz.cpp.o
+.PHONY : choosetopicforquiz.o
+
+# target to build an object file
+choosetopicforquiz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o
+.PHONY : choosetopicforquiz.cpp.o
+
+choosetopicforquiz.i: choosetopicforquiz.cpp.i
+.PHONY : choosetopicforquiz.i
+
+# target to preprocess a source file
+choosetopicforquiz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.i
+.PHONY : choosetopicforquiz.cpp.i
+
+choosetopicforquiz.s: choosetopicforquiz.cpp.s
+.PHONY : choosetopicforquiz.s
+
+# target to generate assembly for a file
+choosetopicforquiz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.s
+.PHONY : choosetopicforquiz.cpp.s
+
 gem-quiz_autogen/mocs_compilation.o: gem-quiz_autogen/mocs_compilation.cpp.o
 .PHONY : gem-quiz_autogen/mocs_compilation.o
 
@@ -392,6 +416,30 @@ showallquizes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/showallquizes.cpp.s
 .PHONY : showallquizes.cpp.s
 
+takequizmodal.o: takequizmodal.cpp.o
+.PHONY : takequizmodal.o
+
+# target to build an object file
+takequizmodal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o
+.PHONY : takequizmodal.cpp.o
+
+takequizmodal.i: takequizmodal.cpp.i
+.PHONY : takequizmodal.i
+
+# target to preprocess a source file
+takequizmodal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/takequizmodal.cpp.i
+.PHONY : takequizmodal.cpp.i
+
+takequizmodal.s: takequizmodal.cpp.s
+.PHONY : takequizmodal.s
+
+# target to generate assembly for a file
+takequizmodal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gem-quiz.dir/build.make CMakeFiles/gem-quiz.dir/takequizmodal.cpp.s
+.PHONY : takequizmodal.cpp.s
+
 utils.o: utils.cpp.o
 .PHONY : utils.o
 
@@ -437,6 +485,9 @@ help:
 	@echo "... addupdatequizesmodal.o"
 	@echo "... addupdatequizesmodal.i"
 	@echo "... addupdatequizesmodal.s"
+	@echo "... choosetopicforquiz.o"
+	@echo "... choosetopicforquiz.i"
+	@echo "... choosetopicforquiz.s"
 	@echo "... gem-quiz_autogen/mocs_compilation.o"
 	@echo "... gem-quiz_autogen/mocs_compilation.i"
 	@echo "... gem-quiz_autogen/mocs_compilation.s"
@@ -455,6 +506,9 @@ help:
 	@echo "... showallquizes.o"
 	@echo "... showallquizes.i"
 	@echo "... showallquizes.s"
+	@echo "... takequizmodal.o"
+	@echo "... takequizmodal.i"
+	@echo "... takequizmodal.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"

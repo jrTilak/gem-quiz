@@ -354,6 +354,9 @@ CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addupdatequizesmodal.cpp \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../addupdatequizesmodal.h \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../showallquizes.h \
+  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_choosetopicforquiz.cpp \
+  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../choosetopicforquiz.h \
+  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../takequizmodal.h \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_helpdialog.cpp \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../helpdialog.h \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_mainwindow.cpp \
@@ -362,4 +365,5 @@ CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_showallquizes.cpp
+  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_showallquizes.cpp \
+  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_takequizmodal.cpp

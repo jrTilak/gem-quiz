@@ -5,6 +5,7 @@
 
 #include "helpdialog.h"
 #include "addupdatequizesmodal.h"
+#include "choosetopicforquiz.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -25,6 +26,8 @@ private slots:
 
     void on_add_update_quizes_button_clicked();
 
+    void on_take_quiz_button_clicked();
+
 public slots:
     void handleShowMainWindow();
 
@@ -32,5 +35,7 @@ private:
     Ui::MainWindow *ui;
     HelpDialog * helpDialog;
     AddUpdateQuizesModal *addUpdateQuizesDialog;
+    ChooseTopicForQuiz * chooseTopicForQuiz;
+
 };
 #endif // MAINWINDOW_H

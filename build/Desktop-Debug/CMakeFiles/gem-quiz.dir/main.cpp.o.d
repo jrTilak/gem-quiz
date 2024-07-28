@@ -358,6 +358,8 @@ CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/gem-quiz/main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /home/jrtilak/gem-quiz/showallquizes.h \
+  /home/jrtilak/gem-quiz/choosetopicforquiz.h \
+  /home/jrtilak/gem-quiz/takequizmodal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \

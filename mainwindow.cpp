@@ -11,10 +11,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     helpDialog = new HelpDialog(this);
     addUpdateQuizesDialog = new AddUpdateQuizesModal(this);
+    chooseTopicForQuiz = new ChooseTopicForQuiz(this);
 
     // Connect the signal from HelpDialog to the slot in MainWindow
     connect(helpDialog, &HelpDialog::triggerShowMainWindow, this, &MainWindow::handleShowMainWindow);
     connect(addUpdateQuizesDialog, &AddUpdateQuizesModal::triggerShowMainWindow, this, &MainWindow::handleShowMainWindow);
+    connect(chooseTopicForQuiz, &ChooseTopicForQuiz::triggerShowMainWindow, this, &MainWindow::handleShowMainWindow);
 }
 
 MainWindow::~MainWindow()
@@ -38,5 +40,13 @@ void MainWindow::on_add_update_quizes_button_clicked()
 {
     this->hide();
     addUpdateQuizesDialog->show();
+}
+
+
+void MainWindow::on_take_quiz_button_clicked()
+{
+    this->hide();
+    chooseTopicForQuiz->show();
+
 }
 

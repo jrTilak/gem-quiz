@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-b68030fd0701486cd059.json",
+					"jsonFile" : "directory-.-Debug-31c1a85f07c677dee1ab.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "gem-quiz::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-gem-quiz-Debug-8c437c1bab2b2b575c4a.json",
+					"jsonFile" : "target-gem-quiz-Debug-e8d08c0eadd6e4ceb182.json",
 					"name" : "gem-quiz",
 					"projectIndex" : 0
 				},

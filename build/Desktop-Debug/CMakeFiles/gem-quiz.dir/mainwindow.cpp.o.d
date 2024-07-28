@@ -359,6 +359,8 @@ CMakeFiles/gem-quiz.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /home/jrtilak/gem-quiz/showallquizes.h \
+  /home/jrtilak/gem-quiz/choosetopicforquiz.h \
+  /home/jrtilak/gem-quiz/takequizmodal.h \
   /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/include/./ui_mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \

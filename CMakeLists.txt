@@ -44,6 +44,8 @@ else()
             utils.h utils.cpp
             quizitem.h quizitem.cpp
             showallquizes.h showallquizes.cpp showallquizes.ui
+            choosetopicforquiz.h choosetopicforquiz.cpp choosetopicforquiz.ui
+            takequizmodal.h takequizmodal.cpp takequizmodal.ui
         )
     endif()
 endif()
