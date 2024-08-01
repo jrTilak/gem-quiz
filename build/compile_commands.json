@@ -52,5 +52,17 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/jrtilak/gem-quiz/build/gem-quiz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/gem-quiz.dir/showallquizes.cpp.o -c /home/jrtilak/gem-quiz/showallquizes.cpp",
   "file": "/home/jrtilak/gem-quiz/showallquizes.cpp",
   "output": "CMakeFiles/gem-quiz.dir/showallquizes.cpp.o"
+},
+{
+  "directory": "/home/jrtilak/gem-quiz/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/jrtilak/gem-quiz/build/gem-quiz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o -c /home/jrtilak/gem-quiz/choosetopicforquiz.cpp",
+  "file": "/home/jrtilak/gem-quiz/choosetopicforquiz.cpp",
+  "output": "CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o"
+},
+{
+  "directory": "/home/jrtilak/gem-quiz/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/jrtilak/gem-quiz/build/gem-quiz_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o -c /home/jrtilak/gem-quiz/takequizmodal.cpp",
+  "file": "/home/jrtilak/gem-quiz/takequizmodal.cpp",
+  "output": "CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o"
 }
 ]
