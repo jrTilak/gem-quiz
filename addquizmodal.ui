@@ -227,7 +227,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Option 3</string>
+    <string>Option 4</string>
    </property>
   </widget>
   <widget class="QLabel" name="option3_label">
@@ -328,7 +328,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Option 3</string>
+    <string>Option 4</string>
    </property>
   </widget>
   <widget class="QPushButton" name="save_question_button">
@@ -349,7 +349,8 @@
     <string>Save Question</string>
    </property>
    <property name="icon">
-    <iconset theme="list-add"/>
+    <iconset theme="list-add">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="autoRepeat">
     <bool>false</bool>
@@ -382,7 +383,8 @@
     <string>Save Topic</string>
    </property>
    <property name="icon">
-    <iconset theme="media-floppy"/>
+    <iconset theme="media-floppy">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="autoRepeat">
     <bool>false</bool>

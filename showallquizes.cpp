@@ -63,7 +63,7 @@ void ShowAllQuizes::addQuizToTreeWidget(const QString& topic, const QVector<Quiz
             optionItem->setText(0, "Option " + QString::number(i + 1) + ": " + options[i]);
 
             // Highlight the correct answer
-            if (i + 1 == item.getCorrectOption()) {
+            if (i == item.getCorrectOption()) {
                 optionItem->setBackground(0, QBrush(Qt::green));
             }
         }

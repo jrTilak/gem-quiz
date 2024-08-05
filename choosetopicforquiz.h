@@ -27,6 +27,9 @@ private:
     Ui::ChooseTopicForQuiz *ui;
     TakeQuizModal *takeQuizModal;
 
+    void reOpenWindow ();
+
+
 public:
     void loadQuizTopics();
 };

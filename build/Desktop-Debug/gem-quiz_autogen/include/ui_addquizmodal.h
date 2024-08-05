@@ -144,7 +144,13 @@ public:
         save_question_button->setObjectName(QString::fromUtf8("save_question_button"));
         save_question_button->setGeometry(QRect(540, 480, 171, 31));
         save_question_button->setFont(font);
-        QIcon icon1(QIcon::fromTheme(QString::fromUtf8("list-add")));
+        QIcon icon1;
+        iconThemeName = QString::fromUtf8("list-add");
+        if (QIcon::hasThemeIcon(iconThemeName)) {
+            icon1 = QIcon::fromTheme(iconThemeName);
+        } else {
+            icon1.addFile(QString::fromUtf8("."), QSize(), QIcon::Normal, QIcon::Off);
+        }
         save_question_button->setIcon(icon1);
         save_question_button->setAutoRepeat(false);
         save_question_button->setAutoDefault(true);
@@ -153,7 +159,13 @@ public:
         save_topic_button->setObjectName(QString::fromUtf8("save_topic_button"));
         save_topic_button->setGeometry(QRect(540, 530, 171, 31));
         save_topic_button->setFont(font);
-        QIcon icon2(QIcon::fromTheme(QString::fromUtf8("media-floppy")));
+        QIcon icon2;
+        iconThemeName = QString::fromUtf8("media-floppy");
+        if (QIcon::hasThemeIcon(iconThemeName)) {
+            icon2 = QIcon::fromTheme(iconThemeName);
+        } else {
+            icon2.addFile(QString::fromUtf8("."), QSize(), QIcon::Normal, QIcon::Off);
+        }
         save_topic_button->setIcon(icon2);
         save_topic_button->setAutoRepeat(false);
         save_topic_button->setAutoDefault(true);
@@ -182,14 +194,14 @@ public:
         option2_label->setText(QCoreApplication::translate("AddQuizModal", "Option 2", nullptr));
         option2_input->setText(QString());
         option4_input->setText(QString());
-        option4_label->setText(QCoreApplication::translate("AddQuizModal", "Option 3", nullptr));
+        option4_label->setText(QCoreApplication::translate("AddQuizModal", "Option 4", nullptr));
         option3_label->setText(QCoreApplication::translate("AddQuizModal", "Option 3", nullptr));
         option3_input->setText(QString());
         option1_radio->setText(QCoreApplication::translate("AddQuizModal", "Option 1", nullptr));
         correct_option_label->setText(QCoreApplication::translate("AddQuizModal", "Correct Option", nullptr));
         option2_radio->setText(QCoreApplication::translate("AddQuizModal", "Option 2", nullptr));
         option3_radio->setText(QCoreApplication::translate("AddQuizModal", "Option 3", nullptr));
-        option4_radio->setText(QCoreApplication::translate("AddQuizModal", "Option 3", nullptr));
+        option4_radio->setText(QCoreApplication::translate("AddQuizModal", "Option 4", nullptr));
         save_question_button->setText(QCoreApplication::translate("AddQuizModal", "Save Question", nullptr));
         save_topic_button->setText(QCoreApplication::translate("AddQuizModal", "Save Topic", nullptr));
     } // retranslateUi

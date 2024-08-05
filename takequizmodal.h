@@ -21,6 +21,9 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+private: signals:
+    void returnToPreviousWindow();
+
 private:
     Ui::TakeQuizModal *ui;
     QVector<QuizItem> quizItems;

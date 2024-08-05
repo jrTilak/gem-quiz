@@ -9,6 +9,8 @@ ChooseTopicForQuiz::ChooseTopicForQuiz(QWidget *parent)
     ui->setupUi(this);
     takeQuizModal = new TakeQuizModal(this);
 
+     connect(takeQuizModal, &TakeQuizModal::returnToPreviousWindow, this, &ChooseTopicForQuiz::reOpenWindow);
+
     loadQuizTopics();
 }
 
@@ -59,3 +61,9 @@ void ChooseTopicForQuiz::on_topic_button_clicked()
         takeQuizModal->show();
     }
 }
+
+void ChooseTopicForQuiz::reOpenWindow()
+{
+    this->show();
+}
+

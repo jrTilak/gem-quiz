@@ -84,6 +84,7 @@ void TakeQuizModal::showQuestion()
 void TakeQuizModal::showFinalScore()
 {
     QMessageBox::information(this, "Quiz Completed", QString("You scored %1 out of %2").arg(correctAnswers).arg(quizItems.size()));
+    emit returnToPreviousWindow();
     this->close();
 }
 
@@ -101,7 +102,7 @@ void TakeQuizModal::on_pushButton_clicked()
             return;
         }
 
-        if (selectedOption + 1 == quizItems[currentQuestionIndex].getCorrectOption()) {
+        if (selectedOption  == quizItems[currentQuestionIndex].getCorrectOption()) {
             correctAnswers++;
         }
 

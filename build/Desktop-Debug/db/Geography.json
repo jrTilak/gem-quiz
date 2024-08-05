@@ -1,0 +1,52 @@
+[
+    {
+        "correctOption": 0,
+        "options": [
+            "Nile",
+            "Amazon",
+            "Ganges",
+            "Karnali"
+        ],
+        "question": "What is the Longest river in the World ?"
+    },
+    {
+        "correctOption": 2,
+        "options": [
+            "Everest",
+            "Api",
+            "K2",
+            "kanchanjunga"
+        ],
+        "question": "What is the name of Second Highest Mountain  in the world ?"
+    },
+    {
+        "correctOption": 1,
+        "options": [
+            "Nairobi",
+            "Berlin",
+            "Tokyo",
+            "Oslo"
+        ],
+        "question": "What is the Capital City of Germany ?"
+    },
+    {
+        "correctOption": 3,
+        "options": [
+            "Russia",
+            "China",
+            "Canada",
+            "India"
+        ],
+        "question": "Which is the most populated country in the World ?"
+    },
+    {
+        "correctOption": 0,
+        "options": [
+            "Sahara",
+            "Gobi",
+            "Thar",
+            "Kalahari"
+        ],
+        "question": "Which is the largest desert in the World?"
+    }
+]

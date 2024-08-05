@@ -1,0 +1,52 @@
+[
+    {
+        "correctOption": 1,
+        "options": [
+            "Cricket",
+            "Volleyball",
+            "FootBall",
+            "Dandibiyo"
+        ],
+        "question": "What is the National Sports of Nepal ?"
+    },
+    {
+        "correctOption": 2,
+        "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "question": "What is the required number of players to play the cricket?"
+    },
+    {
+        "correctOption": 1,
+        "options": [
+            "Brazil",
+            "France",
+            "UK",
+            "India"
+        ],
+        "question": "In which country Olympics 2024 is currently ongoing?"
+    },
+    {
+        "correctOption": 0,
+        "options": [
+            "Sandeep Lamichhane",
+            "Sompal Kami",
+            "Karan K.C.",
+            "Abhinash Bohora"
+        ],
+        "question": "Who is the first Nepali player to get 100 wicket in T20i game?"
+    },
+    {
+        "correctOption": 0,
+        "options": [
+            "spain",
+            "england",
+            "denmark",
+            "france"
+        ],
+        "question": "who won the euro cup 2024 ?"
+    }
+]
