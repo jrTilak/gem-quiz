@@ -1,6 +1,6 @@
 CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addquizmodal.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addquizmodal.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/memory \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/memoryfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -14,7 +14,6 @@ CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/pstl_config.h \
-  /usr/include/tbb/tbb.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/allocator.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/new_allocator.h \
@@ -136,8 +135,8 @@ CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward/auto_ptr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/glue_memory_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/execution_defs.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../addquizmodal.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../quizitem.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../addquizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../quizitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
@@ -351,19 +350,19 @@ CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addupdatequizesmodal.cpp \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../addupdatequizesmodal.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../showallquizes.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_choosetopicforquiz.cpp \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../choosetopicforquiz.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../takequizmodal.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_helpdialog.cpp \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../helpdialog.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../mainwindow.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addupdatequizesmodal.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../addupdatequizesmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../showallquizes.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_choosetopicforquiz.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../choosetopicforquiz.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../takequizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_helpdialog.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../helpdialog.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/../../../../mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_showallquizes.cpp \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_takequizmodal.cpp
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_showallquizes.cpp \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_takequizmodal.cpp

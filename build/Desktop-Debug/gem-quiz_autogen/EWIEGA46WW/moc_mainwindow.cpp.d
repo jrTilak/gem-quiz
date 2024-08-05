@@ -1,12 +1,12 @@
-/home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/jrtilak/gem-quiz/mainwindow.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
-  /home/jrtilak/gem-quiz/addquizmodal.h \
-  /home/jrtilak/gem-quiz/addupdatequizesmodal.h \
-  /home/jrtilak/gem-quiz/choosetopicforquiz.h \
-  /home/jrtilak/gem-quiz/helpdialog.h \
-  /home/jrtilak/gem-quiz/quizitem.h \
-  /home/jrtilak/gem-quiz/showallquizes.h \
-  /home/jrtilak/gem-quiz/takequizmodal.h \
+/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/jrtilak/Desktop/gem-quiz/mainwindow.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
+  /home/jrtilak/Desktop/gem-quiz/addquizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/addupdatequizesmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/choosetopicforquiz.h \
+  /home/jrtilak/Desktop/gem-quiz/helpdialog.h \
+  /home/jrtilak/Desktop/gem-quiz/quizitem.h \
+  /home/jrtilak/Desktop/gem-quiz/showallquizes.h \
+  /home/jrtilak/Desktop/gem-quiz/takequizmodal.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

@@ -1,9 +1,0 @@
-/home/jrtilak/gem-quiz/build/CMakeFiles/gem-quiz.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/edit_cache.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/rebuild_cache.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/list_install_components.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/install.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/install/local.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/install/strip.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/gem-quiz_autogen_timestamp_deps.dir
-/home/jrtilak/gem-quiz/build/CMakeFiles/gem-quiz_autogen.dir

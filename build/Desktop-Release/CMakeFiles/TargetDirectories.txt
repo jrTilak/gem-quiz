@@ -1,9 +1,0 @@
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/gem-quiz.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/edit_cache.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/rebuild_cache.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/list_install_components.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/install.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/install/local.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/install/strip.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/gem-quiz_autogen_timestamp_deps.dir
-/home/jrtilak/gem-quiz/build/Desktop-Release/CMakeFiles/gem-quiz_autogen.dir

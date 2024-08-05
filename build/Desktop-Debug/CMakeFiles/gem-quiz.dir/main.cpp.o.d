@@ -1,5 +1,6 @@
-CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/gem-quiz/main.cpp \
-  /home/jrtilak/gem-quiz/mainwindow.h \
+CMakeFiles/gem-quiz.dir/main.cpp.o: \
+  /home/jrtilak/Desktop/gem-quiz/main.cpp \
+  /home/jrtilak/Desktop/gem-quiz/mainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -17,7 +18,6 @@ CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/gem-quiz/main.cpp \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/pstl_config.h \
-  /usr/include/tbb/tbb.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstddef \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
@@ -332,12 +332,12 @@ CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/gem-quiz/main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
-  /home/jrtilak/gem-quiz/helpdialog.h \
+  /home/jrtilak/Desktop/gem-quiz/helpdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
-  /home/jrtilak/gem-quiz/addupdatequizesmodal.h \
-  /home/jrtilak/gem-quiz/addquizmodal.h \
-  /home/jrtilak/gem-quiz/quizitem.h \
+  /home/jrtilak/Desktop/gem-quiz/addupdatequizesmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/addquizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/quizitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
@@ -357,9 +357,9 @@ CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/gem-quiz/main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
-  /home/jrtilak/gem-quiz/showallquizes.h \
-  /home/jrtilak/gem-quiz/choosetopicforquiz.h \
-  /home/jrtilak/gem-quiz/takequizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/showallquizes.h \
+  /home/jrtilak/Desktop/gem-quiz/choosetopicforquiz.h \
+  /home/jrtilak/Desktop/gem-quiz/takequizmodal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \

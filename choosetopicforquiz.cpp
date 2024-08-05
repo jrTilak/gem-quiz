@@ -25,6 +25,13 @@ void ChooseTopicForQuiz::on_back_button_clicked()
 
 void ChooseTopicForQuiz::loadQuizTopics()
 {
+    // Clear previous UI elements
+    QLayoutItem *child;
+    while ((child = ui->verticalLayout->takeAt(0)) != nullptr) {
+        delete child->widget();
+        delete child;
+    }
+
     QVector<QPair<QString, QPair<QString, QVector<QuizItem>>>> quizData = Utils::readFolderAndGetFileData("./db/");
 
     for (const auto& data : quizData) {
@@ -40,6 +47,7 @@ void ChooseTopicForQuiz::loadQuizTopics()
         ui->verticalLayout->addWidget(noQuizzesLabel);
     }
 }
+
 
 void ChooseTopicForQuiz::on_topic_button_clicked()
 {

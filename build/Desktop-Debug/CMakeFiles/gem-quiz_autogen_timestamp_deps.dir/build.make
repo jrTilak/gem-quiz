@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jrtilak/gem-quiz
+CMAKE_SOURCE_DIR = /home/jrtilak/Desktop/gem-quiz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jrtilak/gem-quiz/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug
 
 # Utility rule file for gem-quiz_autogen_timestamp_deps.
 
@@ -66,8 +66,8 @@ include CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/gem-quiz_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 CMakeFiles/gem-quiz_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
+CMakeFiles/gem-quiz_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 CMakeFiles/gem-quiz_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
 
 gem-quiz_autogen_timestamp_deps: CMakeFiles/gem-quiz_autogen_timestamp_deps
@@ -83,6 +83,6 @@ CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/depend:
-	cd /home/jrtilak/gem-quiz/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrtilak/gem-quiz /home/jrtilak/gem-quiz /home/jrtilak/gem-quiz/build/Desktop-Debug /home/jrtilak/gem-quiz/build/Desktop-Debug /home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrtilak/Desktop/gem-quiz /home/jrtilak/Desktop/gem-quiz /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gem-quiz_autogen_timestamp_deps.dir/depend
 

@@ -1,6 +1,6 @@
-/home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addquizmodal.cpp: /home/jrtilak/gem-quiz/addquizmodal.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
-  /home/jrtilak/gem-quiz/quizitem.h \
+/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_addquizmodal.cpp: /home/jrtilak/Desktop/gem-quiz/addquizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
+  /home/jrtilak/Desktop/gem-quiz/quizitem.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

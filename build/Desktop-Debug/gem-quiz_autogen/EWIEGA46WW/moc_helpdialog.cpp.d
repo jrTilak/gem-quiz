@@ -1,5 +1,5 @@
-/home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_helpdialog.cpp: /home/jrtilak/gem-quiz/helpdialog.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
+/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/EWIEGA46WW/moc_helpdialog.cpp: /home/jrtilak/Desktop/gem-quiz/helpdialog.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

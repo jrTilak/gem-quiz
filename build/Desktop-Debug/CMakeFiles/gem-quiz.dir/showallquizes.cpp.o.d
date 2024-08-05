@@ -1,7 +1,7 @@
 CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: \
-  /home/jrtilak/gem-quiz/showallquizes.cpp \
-  /home/jrtilak/gem-quiz/showallquizes.h \
-  /home/jrtilak/gem-quiz/quizitem.h \
+  /home/jrtilak/Desktop/gem-quiz/showallquizes.cpp \
+  /home/jrtilak/Desktop/gem-quiz/showallquizes.h \
+  /home/jrtilak/Desktop/gem-quiz/quizitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
@@ -18,7 +18,6 @@ CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/pstl_config.h \
-  /usr/include/tbb/tbb.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstddef \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
@@ -351,7 +350,7 @@ CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/include/ui_showallquizes.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/include/ui_showallquizes.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
@@ -388,5 +387,5 @@ CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtreewidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtreeview.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtreewidgetitemiterator.h \
-  /home/jrtilak/gem-quiz/utils.h \
+  /home/jrtilak/Desktop/gem-quiz/utils.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTreeWidgetItem

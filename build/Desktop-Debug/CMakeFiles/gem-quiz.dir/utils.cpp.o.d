@@ -1,5 +1,7 @@
-CMakeFiles/gem-quiz.dir/utils.cpp.o: /home/jrtilak/gem-quiz/utils.cpp \
-  /home/jrtilak/gem-quiz/utils.h /home/jrtilak/gem-quiz/quizitem.h \
+CMakeFiles/gem-quiz.dir/utils.cpp.o: \
+  /home/jrtilak/Desktop/gem-quiz/utils.cpp \
+  /home/jrtilak/Desktop/gem-quiz/utils.h \
+  /home/jrtilak/Desktop/gem-quiz/quizitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
@@ -16,7 +18,6 @@ CMakeFiles/gem-quiz.dir/utils.cpp.o: /home/jrtilak/gem-quiz/utils.cpp \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/pstl_config.h \
-  /usr/include/tbb/tbb.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstddef \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \

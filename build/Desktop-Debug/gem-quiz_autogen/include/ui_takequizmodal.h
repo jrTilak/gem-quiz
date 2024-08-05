@@ -41,33 +41,48 @@ public:
         label->setGeometry(QRect(20, 20, 201, 20));
         question_label = new QLabel(TakeQuizModal);
         question_label->setObjectName(QString::fromUtf8("question_label"));
-        question_label->setGeometry(QRect(20, 60, 741, 71));
+        question_label->setGeometry(QRect(20, 60, 741, 151));
         QFont font;
-        font.setPointSize(16);
+        font.setFamily(QString::fromUtf8("URW Gothic"));
+        font.setPointSize(18);
         font.setBold(true);
+        font.setItalic(false);
         question_label->setFont(font);
+        question_label->setWordWrap(true);
         label_2 = new QLabel(TakeQuizModal);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(20, 340, 91, 31));
+        label_2->setGeometry(QRect(30, 220, 91, 31));
         QFont font1;
-        font1.setPointSize(15);
+        font1.setPointSize(16);
         label_2->setFont(font1);
         radioButton = new QRadioButton(TakeQuizModal);
         radioButton->setObjectName(QString::fromUtf8("radioButton"));
-        radioButton->setGeometry(QRect(40, 380, 711, 24));
+        radioButton->setGeometry(QRect(40, 260, 711, 24));
+        QFont font2;
+        font2.setPointSize(14);
+        radioButton->setFont(font2);
         radioButton_2 = new QRadioButton(TakeQuizModal);
         radioButton_2->setObjectName(QString::fromUtf8("radioButton_2"));
-        radioButton_2->setGeometry(QRect(40, 420, 711, 24));
+        radioButton_2->setGeometry(QRect(40, 290, 711, 24));
+        radioButton_2->setFont(font2);
         radioButton_3 = new QRadioButton(TakeQuizModal);
         radioButton_3->setObjectName(QString::fromUtf8("radioButton_3"));
-        radioButton_3->setGeometry(QRect(40, 460, 711, 24));
+        radioButton_3->setGeometry(QRect(40, 320, 711, 24));
+        radioButton_3->setFont(font2);
         radioButton_4 = new QRadioButton(TakeQuizModal);
         radioButton_4->setObjectName(QString::fromUtf8("radioButton_4"));
-        radioButton_4->setGeometry(QRect(40, 500, 730, 24));
+        radioButton_4->setGeometry(QRect(40, 350, 730, 24));
+        radioButton_4->setFont(font2);
         pushButton = new QPushButton(TakeQuizModal);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
         pushButton->setGeometry(QRect(597, 595, 151, 31));
-        QIcon icon(QIcon::fromTheme(QString::fromUtf8("go-next")));
+        QIcon icon;
+        QString iconThemeName = QString::fromUtf8("go-next");
+        if (QIcon::hasThemeIcon(iconThemeName)) {
+            icon = QIcon::fromTheme(iconThemeName);
+        } else {
+            icon.addFile(QString::fromUtf8("."), QSize(), QIcon::Normal, QIcon::Off);
+        }
         pushButton->setIcon(icon);
 
         retranslateUi(TakeQuizModal);

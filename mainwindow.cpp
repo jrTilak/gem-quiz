@@ -47,6 +47,7 @@ void MainWindow::on_take_quiz_button_clicked()
 {
     this->hide();
     chooseTopicForQuiz->show();
+    chooseTopicForQuiz->loadQuizTopics();
 
 }
 

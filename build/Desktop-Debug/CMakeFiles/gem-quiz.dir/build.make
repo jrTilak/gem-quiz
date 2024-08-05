@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jrtilak/gem-quiz
+CMAKE_SOURCE_DIR = /home/jrtilak/Desktop/gem-quiz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jrtilak/gem-quiz/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gem-quiz.dir/depend.make
@@ -72,163 +72,163 @@ include CMakeFiles/gem-quiz.dir/flags.make
 gem-quiz_autogen/timestamp: /usr/lib/qt5/bin/moc
 gem-quiz_autogen/timestamp: /usr/lib/qt5/bin/uic
 gem-quiz_autogen/timestamp: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gem-quiz"
-	/usr/bin/cmake -E cmake_autogen /home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gem-quiz"
+	/usr/bin/cmake -E cmake_autogen /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/timestamp
 
 CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
 CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: gem-quiz_autogen/mocs_compilation.cpp
 CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o -MF CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o -c /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o -MF CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.o -c /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp
 
 CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp > CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp > CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp -o CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/mocs_compilation.cpp -o CMakeFiles/gem-quiz.dir/gem-quiz_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/gem-quiz.dir/main.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/gem-quiz/main.cpp
+CMakeFiles/gem-quiz.dir/main.cpp.o: /home/jrtilak/Desktop/gem-quiz/main.cpp
 CMakeFiles/gem-quiz.dir/main.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gem-quiz.dir/main.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/main.cpp.o -MF CMakeFiles/gem-quiz.dir/main.cpp.o.d -o CMakeFiles/gem-quiz.dir/main.cpp.o -c /home/jrtilak/gem-quiz/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gem-quiz.dir/main.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/main.cpp.o -MF CMakeFiles/gem-quiz.dir/main.cpp.o.d -o CMakeFiles/gem-quiz.dir/main.cpp.o -c /home/jrtilak/Desktop/gem-quiz/main.cpp
 
 CMakeFiles/gem-quiz.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/main.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/main.cpp > CMakeFiles/gem-quiz.dir/main.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/main.cpp > CMakeFiles/gem-quiz.dir/main.cpp.i
 
 CMakeFiles/gem-quiz.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/main.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/main.cpp -o CMakeFiles/gem-quiz.dir/main.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/main.cpp -o CMakeFiles/gem-quiz.dir/main.cpp.s
 
 CMakeFiles/gem-quiz.dir/mainwindow.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/mainwindow.cpp.o: /home/jrtilak/gem-quiz/mainwindow.cpp
+CMakeFiles/gem-quiz.dir/mainwindow.cpp.o: /home/jrtilak/Desktop/gem-quiz/mainwindow.cpp
 CMakeFiles/gem-quiz.dir/mainwindow.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gem-quiz.dir/mainwindow.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/mainwindow.cpp.o -MF CMakeFiles/gem-quiz.dir/mainwindow.cpp.o.d -o CMakeFiles/gem-quiz.dir/mainwindow.cpp.o -c /home/jrtilak/gem-quiz/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gem-quiz.dir/mainwindow.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/mainwindow.cpp.o -MF CMakeFiles/gem-quiz.dir/mainwindow.cpp.o.d -o CMakeFiles/gem-quiz.dir/mainwindow.cpp.o -c /home/jrtilak/Desktop/gem-quiz/mainwindow.cpp
 
 CMakeFiles/gem-quiz.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/mainwindow.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/mainwindow.cpp > CMakeFiles/gem-quiz.dir/mainwindow.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/mainwindow.cpp > CMakeFiles/gem-quiz.dir/mainwindow.cpp.i
 
 CMakeFiles/gem-quiz.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/mainwindow.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/mainwindow.cpp -o CMakeFiles/gem-quiz.dir/mainwindow.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/mainwindow.cpp -o CMakeFiles/gem-quiz.dir/mainwindow.cpp.s
 
 CMakeFiles/gem-quiz.dir/helpdialog.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/helpdialog.cpp.o: /home/jrtilak/gem-quiz/helpdialog.cpp
+CMakeFiles/gem-quiz.dir/helpdialog.cpp.o: /home/jrtilak/Desktop/gem-quiz/helpdialog.cpp
 CMakeFiles/gem-quiz.dir/helpdialog.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gem-quiz.dir/helpdialog.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/helpdialog.cpp.o -MF CMakeFiles/gem-quiz.dir/helpdialog.cpp.o.d -o CMakeFiles/gem-quiz.dir/helpdialog.cpp.o -c /home/jrtilak/gem-quiz/helpdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gem-quiz.dir/helpdialog.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/helpdialog.cpp.o -MF CMakeFiles/gem-quiz.dir/helpdialog.cpp.o.d -o CMakeFiles/gem-quiz.dir/helpdialog.cpp.o -c /home/jrtilak/Desktop/gem-quiz/helpdialog.cpp
 
 CMakeFiles/gem-quiz.dir/helpdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/helpdialog.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/helpdialog.cpp > CMakeFiles/gem-quiz.dir/helpdialog.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/helpdialog.cpp > CMakeFiles/gem-quiz.dir/helpdialog.cpp.i
 
 CMakeFiles/gem-quiz.dir/helpdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/helpdialog.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/helpdialog.cpp -o CMakeFiles/gem-quiz.dir/helpdialog.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/helpdialog.cpp -o CMakeFiles/gem-quiz.dir/helpdialog.cpp.s
 
 CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o: /home/jrtilak/gem-quiz/addupdatequizesmodal.cpp
+CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o: /home/jrtilak/Desktop/gem-quiz/addupdatequizesmodal.cpp
 CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o -MF CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o.d -o CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o -c /home/jrtilak/gem-quiz/addupdatequizesmodal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o -MF CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o.d -o CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.o -c /home/jrtilak/Desktop/gem-quiz/addupdatequizesmodal.cpp
 
 CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/addupdatequizesmodal.cpp > CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/addupdatequizesmodal.cpp > CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.i
 
 CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/addupdatequizesmodal.cpp -o CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/addupdatequizesmodal.cpp -o CMakeFiles/gem-quiz.dir/addupdatequizesmodal.cpp.s
 
 CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o: /home/jrtilak/gem-quiz/addquizmodal.cpp
+CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o: /home/jrtilak/Desktop/gem-quiz/addquizmodal.cpp
 CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o -MF CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o.d -o CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o -c /home/jrtilak/gem-quiz/addquizmodal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o -MF CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o.d -o CMakeFiles/gem-quiz.dir/addquizmodal.cpp.o -c /home/jrtilak/Desktop/gem-quiz/addquizmodal.cpp
 
 CMakeFiles/gem-quiz.dir/addquizmodal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/addquizmodal.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/addquizmodal.cpp > CMakeFiles/gem-quiz.dir/addquizmodal.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/addquizmodal.cpp > CMakeFiles/gem-quiz.dir/addquizmodal.cpp.i
 
 CMakeFiles/gem-quiz.dir/addquizmodal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/addquizmodal.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/addquizmodal.cpp -o CMakeFiles/gem-quiz.dir/addquizmodal.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/addquizmodal.cpp -o CMakeFiles/gem-quiz.dir/addquizmodal.cpp.s
 
 CMakeFiles/gem-quiz.dir/utils.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/utils.cpp.o: /home/jrtilak/gem-quiz/utils.cpp
+CMakeFiles/gem-quiz.dir/utils.cpp.o: /home/jrtilak/Desktop/gem-quiz/utils.cpp
 CMakeFiles/gem-quiz.dir/utils.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gem-quiz.dir/utils.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/utils.cpp.o -MF CMakeFiles/gem-quiz.dir/utils.cpp.o.d -o CMakeFiles/gem-quiz.dir/utils.cpp.o -c /home/jrtilak/gem-quiz/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gem-quiz.dir/utils.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/utils.cpp.o -MF CMakeFiles/gem-quiz.dir/utils.cpp.o.d -o CMakeFiles/gem-quiz.dir/utils.cpp.o -c /home/jrtilak/Desktop/gem-quiz/utils.cpp
 
 CMakeFiles/gem-quiz.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/utils.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/utils.cpp > CMakeFiles/gem-quiz.dir/utils.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/utils.cpp > CMakeFiles/gem-quiz.dir/utils.cpp.i
 
 CMakeFiles/gem-quiz.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/utils.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/utils.cpp -o CMakeFiles/gem-quiz.dir/utils.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/utils.cpp -o CMakeFiles/gem-quiz.dir/utils.cpp.s
 
 CMakeFiles/gem-quiz.dir/quizitem.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/quizitem.cpp.o: /home/jrtilak/gem-quiz/quizitem.cpp
+CMakeFiles/gem-quiz.dir/quizitem.cpp.o: /home/jrtilak/Desktop/gem-quiz/quizitem.cpp
 CMakeFiles/gem-quiz.dir/quizitem.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gem-quiz.dir/quizitem.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/quizitem.cpp.o -MF CMakeFiles/gem-quiz.dir/quizitem.cpp.o.d -o CMakeFiles/gem-quiz.dir/quizitem.cpp.o -c /home/jrtilak/gem-quiz/quizitem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gem-quiz.dir/quizitem.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/quizitem.cpp.o -MF CMakeFiles/gem-quiz.dir/quizitem.cpp.o.d -o CMakeFiles/gem-quiz.dir/quizitem.cpp.o -c /home/jrtilak/Desktop/gem-quiz/quizitem.cpp
 
 CMakeFiles/gem-quiz.dir/quizitem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/quizitem.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/quizitem.cpp > CMakeFiles/gem-quiz.dir/quizitem.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/quizitem.cpp > CMakeFiles/gem-quiz.dir/quizitem.cpp.i
 
 CMakeFiles/gem-quiz.dir/quizitem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/quizitem.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/quizitem.cpp -o CMakeFiles/gem-quiz.dir/quizitem.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/quizitem.cpp -o CMakeFiles/gem-quiz.dir/quizitem.cpp.s
 
 CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: /home/jrtilak/gem-quiz/showallquizes.cpp
+CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: /home/jrtilak/Desktop/gem-quiz/showallquizes.cpp
 CMakeFiles/gem-quiz.dir/showallquizes.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gem-quiz.dir/showallquizes.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/showallquizes.cpp.o -MF CMakeFiles/gem-quiz.dir/showallquizes.cpp.o.d -o CMakeFiles/gem-quiz.dir/showallquizes.cpp.o -c /home/jrtilak/gem-quiz/showallquizes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gem-quiz.dir/showallquizes.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/showallquizes.cpp.o -MF CMakeFiles/gem-quiz.dir/showallquizes.cpp.o.d -o CMakeFiles/gem-quiz.dir/showallquizes.cpp.o -c /home/jrtilak/Desktop/gem-quiz/showallquizes.cpp
 
 CMakeFiles/gem-quiz.dir/showallquizes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/showallquizes.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/showallquizes.cpp > CMakeFiles/gem-quiz.dir/showallquizes.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/showallquizes.cpp > CMakeFiles/gem-quiz.dir/showallquizes.cpp.i
 
 CMakeFiles/gem-quiz.dir/showallquizes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/showallquizes.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/showallquizes.cpp -o CMakeFiles/gem-quiz.dir/showallquizes.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/showallquizes.cpp -o CMakeFiles/gem-quiz.dir/showallquizes.cpp.s
 
 CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o: /home/jrtilak/gem-quiz/choosetopicforquiz.cpp
+CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o: /home/jrtilak/Desktop/gem-quiz/choosetopicforquiz.cpp
 CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o -MF CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o.d -o CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o -c /home/jrtilak/gem-quiz/choosetopicforquiz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o -MF CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o.d -o CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.o -c /home/jrtilak/Desktop/gem-quiz/choosetopicforquiz.cpp
 
 CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/choosetopicforquiz.cpp > CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/choosetopicforquiz.cpp > CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.i
 
 CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/choosetopicforquiz.cpp -o CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/choosetopicforquiz.cpp -o CMakeFiles/gem-quiz.dir/choosetopicforquiz.cpp.s
 
 CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: CMakeFiles/gem-quiz.dir/flags.make
-CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: /home/jrtilak/gem-quiz/takequizmodal.cpp
+CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: /home/jrtilak/Desktop/gem-quiz/takequizmodal.cpp
 CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: CMakeFiles/gem-quiz.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o -MF CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o.d -o CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o -c /home/jrtilak/gem-quiz/takequizmodal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o -MF CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o.d -o CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o -c /home/jrtilak/Desktop/gem-quiz/takequizmodal.cpp
 
 CMakeFiles/gem-quiz.dir/takequizmodal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gem-quiz.dir/takequizmodal.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/gem-quiz/takequizmodal.cpp > CMakeFiles/gem-quiz.dir/takequizmodal.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrtilak/Desktop/gem-quiz/takequizmodal.cpp > CMakeFiles/gem-quiz.dir/takequizmodal.cpp.i
 
 CMakeFiles/gem-quiz.dir/takequizmodal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gem-quiz.dir/takequizmodal.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/gem-quiz/takequizmodal.cpp -o CMakeFiles/gem-quiz.dir/takequizmodal.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrtilak/Desktop/gem-quiz/takequizmodal.cpp -o CMakeFiles/gem-quiz.dir/takequizmodal.cpp.s
 
 # Object files for target gem-quiz
 gem__quiz_OBJECTS = \
@@ -263,7 +263,7 @@ gem-quiz: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 gem-quiz: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 gem-quiz: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 gem-quiz: CMakeFiles/gem-quiz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable gem-quiz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable gem-quiz"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gem-quiz.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -275,6 +275,6 @@ CMakeFiles/gem-quiz.dir/clean:
 .PHONY : CMakeFiles/gem-quiz.dir/clean
 
 CMakeFiles/gem-quiz.dir/depend: gem-quiz_autogen/timestamp
-	cd /home/jrtilak/gem-quiz/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrtilak/gem-quiz /home/jrtilak/gem-quiz /home/jrtilak/gem-quiz/build/Desktop-Debug /home/jrtilak/gem-quiz/build/Desktop-Debug /home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrtilak/Desktop/gem-quiz /home/jrtilak/Desktop/gem-quiz /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gem-quiz.dir/depend
 

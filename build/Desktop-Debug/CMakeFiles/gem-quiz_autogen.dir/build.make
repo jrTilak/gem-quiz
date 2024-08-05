@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jrtilak/gem-quiz
+CMAKE_SOURCE_DIR = /home/jrtilak/Desktop/gem-quiz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jrtilak/gem-quiz/build/Desktop-Debug
+CMAKE_BINARY_DIR = /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug
 
 # Utility rule file for gem-quiz_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/gem-quiz_autogen: gem-quiz_autogen/timestamp
 gem-quiz_autogen/timestamp: /usr/lib/qt5/bin/moc
 gem-quiz_autogen/timestamp: /usr/lib/qt5/bin/uic
 gem-quiz_autogen/timestamp: CMakeFiles/gem-quiz_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gem-quiz"
-	/usr/bin/cmake -E cmake_autogen /home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gem-quiz"
+	/usr/bin/cmake -E cmake_autogen /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/timestamp
 
 gem-quiz_autogen: CMakeFiles/gem-quiz_autogen
 gem-quiz_autogen: gem-quiz_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/gem-quiz_autogen.dir/clean:
 .PHONY : CMakeFiles/gem-quiz_autogen.dir/clean
 
 CMakeFiles/gem-quiz_autogen.dir/depend:
-	cd /home/jrtilak/gem-quiz/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrtilak/gem-quiz /home/jrtilak/gem-quiz /home/jrtilak/gem-quiz/build/Desktop-Debug /home/jrtilak/gem-quiz/build/Desktop-Debug /home/jrtilak/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrtilak/Desktop/gem-quiz /home/jrtilak/Desktop/gem-quiz /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/CMakeFiles/gem-quiz_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gem-quiz_autogen.dir/depend
 

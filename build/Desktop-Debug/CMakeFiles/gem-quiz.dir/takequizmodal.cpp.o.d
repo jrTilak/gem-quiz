@@ -1,6 +1,6 @@
 CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: \
-  /home/jrtilak/gem-quiz/takequizmodal.cpp \
-  /home/jrtilak/gem-quiz/takequizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/takequizmodal.cpp \
+  /home/jrtilak/Desktop/gem-quiz/takequizmodal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -18,7 +18,6 @@ CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/pstl/pstl_config.h \
-  /usr/include/tbb/tbb.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cstddef \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
@@ -331,7 +330,7 @@ CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /home/jrtilak/gem-quiz/quizitem.h \
+  /home/jrtilak/Desktop/gem-quiz/quizitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
@@ -351,7 +350,7 @@ CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
-  /home/jrtilak/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/include/ui_takequizmodal.h \
+  /home/jrtilak/Desktop/gem-quiz/build/Desktop-Debug/gem-quiz_autogen/include/ui_takequizmodal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
@@ -370,6 +369,6 @@ CMakeFiles/gem-quiz.dir/takequizmodal.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h \
-  /home/jrtilak/gem-quiz/utils.h \
+  /home/jrtilak/Desktop/gem-quiz/utils.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
