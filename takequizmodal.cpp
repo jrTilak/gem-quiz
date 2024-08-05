@@ -1,6 +1,8 @@
 #include "takequizmodal.h"
 #include "ui_takequizmodal.h"
 #include "utils.h"
+#include <algorithm> // For std::shuffle
+#include <random>
 #include <QMessageBox>
 
 TakeQuizModal::TakeQuizModal(QWidget *parent)
@@ -23,6 +25,7 @@ void TakeQuizModal::setTopic(const QString &topic)
     loadQuiz();
 }
 
+
 void TakeQuizModal::loadQuiz()
 {
     QVector<QPair<QString, QPair<QString, QVector<QuizItem>>>> quizData = Utils::readFolderAndGetFileData("./db/");
@@ -34,10 +37,15 @@ void TakeQuizModal::loadQuiz()
         }
     }
 
-    // if (quizItems.size() > 10) {
-        // std::random_shuffle(quizItems.begin(), quizItems.end());
-        // quizItems.resize(10);
-    // }
+    // Shuffle the quiz items
+    std::random_device rd; // obtain a random number from hardware
+    std::mt19937 g(rd());  // seed the generator
+    std::shuffle(quizItems.begin(), quizItems.end(), g); // shuffle the elements
+
+    // Resize the vector to contain a maximum of 10 elements
+    if (quizItems.size() > 10) {
+        quizItems = quizItems.mid(0, 10); // Take the first 10 elements
+    }
 
     currentQuestionIndex = 0;
     correctAnswers = 0;
